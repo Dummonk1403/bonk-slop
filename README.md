@@ -4,7 +4,7 @@ A gorilla-arm brawler for Meta Quest: swing around on your arms, mine the cave b
 
 **Download and install:** https://dummonk1403.github.io/bonk-slop/ (open it in the Meta Quest Browser on your headset)
 
-Direct APK link (v1.86): https://github.com/Dummonk1403/bonk-slop/releases/download/v1.86/BonkSlop.apk
+Direct APK link (v1.87): https://github.com/Dummonk1403/bonk-slop/releases/download/v1.87/BonkSlop.apk
 
 - **The download link installs the game.** Installing games from outside the Meta Horizon Store needs Developer Mode on your headset (switched on from the Meta Horizon phone app).
 - **Public servers join themselves; a room code joins your friends.** The game joins a public server when it starts. For a private room, type a code on the lobby computer in the cabin: one person presses CREATE, everyone else types the same code and presses JOIN. A full private room says "Private server is full. Try a public server." and offers JOIN PUBLIC SERVER.
