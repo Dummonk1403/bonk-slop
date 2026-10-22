@@ -11,4 +11,6 @@ Direct APK link (v2.05): https://github.com/Dummonk1403/bonk-slop/releases/downl
 
 Already have Bonk Slop? Install the new APK over it and choose Update. Don't uninstall first: your progress is saved on the headset.
 
+**Previous versions (offline only):** older releases are listed on the download page under *Previous versions*. They cannot play online: multiplayer is unavailable, each installs as its own app with its own saved progress, and your current game is not touched. Files: https://github.com/Dummonk1403/bonk-slop/releases/tag/legacy-offline
+
 This repository only holds the download page and the release files.
