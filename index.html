@@ -161,6 +161,12 @@
   .msgs li { padding: 10px 0; border-top: 1px dashed var(--line); }
   .msgs .mono { color: var(--ink); font-weight: 700; }
 
+  /* The town TV */
+  .tv { margin: 4px 0 0; }
+  .tv-frame { background: #1b1410; border: 6px solid #cfc7a8; border-radius: 14px; padding: 8px; box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.45); }
+  .tv video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 6px; background: #000; }
+  .tv figcaption { margin-top: 10px; color: var(--muted); font-size: 0.9em; text-align: center; }
+
   /* Other ways */
   details.card { padding: 0; }
   details.card > summary {
@@ -317,6 +323,21 @@
       <li>Private rooms aren't listed anywhere, and the automatic public join never puts you in one: only people who know the code can join.</li>
       <li>Everyone should have the same version (v2.25). Servers are in the US West region, so friends far away can join but may lag more.</li>
     </ul>
+  </section>
+
+  <!-- The town TV -->
+  <section class="card" id="town-tv" aria-labelledby="tv-title">
+    <h2 id="tv-title">Now on the town TV</h2>
+    <p>The TV beside the lobby computer plays short videos for everyone in the lobby. First up: two players, one brand-new Kinda Big robot, and a house window.</p>
+    <figure class="tv">
+      <div class="tv-frame">
+        <video controls playsinline preload="metadata" poster="town-tv-dude.jpg" width="1280" height="720">
+          <source src="town-tv-dude.mp4" type="video/mp4">
+          Your browser can't play this video. <a href="town-tv-dude.mp4">Download it</a> instead.
+        </video>
+      </div>
+      <figcaption>&ldquo;DUUUUUDE!!!&rdquo; &middot; 30 seconds &middot; made in Blender from the game's own town, robot and gorillas</figcaption>
+    </figure>
   </section>
 
   <!-- Updates -->
